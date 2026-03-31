@@ -1,0 +1,28 @@
+# Visual Studio 工程/解决方案文件（不要上传GitHub）
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+.vs/
+
+# 编译生成的可执行文件、中间文件（绝对不要上传）
+*.exe
+*.obj
+*.o
+*.a
+*.so
+*.pdb
+*.ilk
+
+# 编译输出文件夹
+Debug/
+Release/
+x64/
+x86/
+
+# VS Code 本地配置（可选，不想传就留着）
+.vscode/
+
+# 系统自动生成的垃圾文件
+Thumbs.db
+.DS_Store
