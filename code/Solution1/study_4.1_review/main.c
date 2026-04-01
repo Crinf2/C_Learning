@@ -4,21 +4,21 @@
 int main()/*main函数是整个代码的入口点，程序从这里开始执行。有且仅有一个main*/
 {
 	printf("hehe\n");
-	printf("%d\n",sizeof(char));
-	printf("%d\n",sizeof(short));
-	printf("%d\n",sizeof(int));
-	printf("%d\n",sizeof(long));
-	printf("%d\n",sizeof(long long));
-	printf("%d\n",sizeof(float));
-	printf("%d\n",sizeof(double));
+	printf("%d\n", sizeof(char));
+	printf("%d\n", sizeof(short));
+	printf("%d\n", sizeof(int));
+	printf("%d\n", sizeof(long));
+	printf("%d\n", sizeof(long long));
+	printf("%d\n", sizeof(float));
+	printf("%d\n", sizeof(double));
 
 
 	int a = 0;
 	int b = 0;
 	scanf("%d %d", &a, &b);
 	int c = a + b;
-	printf("%d\n",c);
-	
+	printf("%d\n", c);
+
 
 
 
